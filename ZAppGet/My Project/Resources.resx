@@ -46,7 +46,7 @@
     
     mimetype: application/x-microsoft.net.object.binary.base64
     value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
@@ -60,6 +60,7 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -68,9 +69,10 @@
               <xsd:sequence>
                 <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="name" use="required" type="xsd:string" />
               <xsd:attribute name="type" type="xsd:string" />
               <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
@@ -85,9 +87,10 @@
                 <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
                 <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
               <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
               <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
@@ -109,9 +112,178 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="logo_black3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\logo-black.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wi_fi_off_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\wi-fi_off_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hide_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\hide_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_white1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\logo-white.eps;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="logo_no_background2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\logo-no-background.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="security_lock_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\security_lock_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="json_download_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\json_download_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Installed_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Installed_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="software_license_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\software_license_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c_sharp_logo_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\c_sharp_logo_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\logo-white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cs_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\cs_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_no_background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\logo-no-background.eps;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="user_settings_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\user_settings_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="certificate_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\certificate_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_black1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\logo-black.eps;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="java_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\java_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Key_Security_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Key Security_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_no_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\logo-no-background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_color2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\logo-color.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="creations_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\creations_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="python_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\python_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vbs_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vbs_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_white2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\logo-white.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="star_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\star_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_no_background4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\logo-no-background.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrandBoard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BrandBoard.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="logo_white3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\logo-white.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="unavailable_cloud_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\unavailable_cloud_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home_page_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\home_page_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="js_squared_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\js_squared_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\search_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_no_background3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\logo-no-background.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="github_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\github_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_black2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\logo-black.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\menu_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\logo-color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\logo-black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\c_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_color1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\logo-color.eps;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nothing_found_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\nothing_found_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\settings_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="package_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\package_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eye_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\eye_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="star_filled_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\star_filled_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\user_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Archivo_Black_Regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivo Black Regular.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="source_code_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\source_code_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_color3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\logo-color.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mail_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\mail_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SideMenuPanelBackFillColorDark" xml:space="preserve">
+    <value>34, 79, 150</value>
+  </data>
+  <data name="SideMenuPanelBackFillColorLight" xml:space="preserve">
+    <value>30,144, 255</value>
+  </data>
+  <data name="TitleBarPanelBackFillColorDark" xml:space="preserve">
+    <value>4, 49, 120</value>
+  </data>
+  <data name="TitleBarPanelBackFillColorLight" xml:space="preserve">
+    <value>0, 0, 205</value>
+  </data>
+  <data name="WindowBackgroundColorDark" xml:space="preserve">
+    <value>20, 33, 61</value>
+  </data>
+  <data name="WindowBackgroundColorLight" xml:space="preserve">
+    <value>0, 191, 255</value>
+  </data>
 </root>

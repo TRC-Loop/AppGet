@@ -1,0 +1,306 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ZAppGet
+</name>
+</assembly>
+<members>
+<member name="T:ZAppGet.My.Resources.Resources">
+<summary>
+  Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.ResourceManager">
+<summary>
+  Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.Culture">
+<summary>
+  Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+  Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.Archivo_Black_Regular">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.BrandBoard">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.c_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.c_sharp_logo_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.certificate_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.creations_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.cs_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.eye_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.github_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.hide_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.home_page_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.Installed_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.java_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.js_squared_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.json_download_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.Key_Security_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.logo_black">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.logo_black1">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.logo_black2">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.logo_black3">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.logo_color">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.logo_color1">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.logo_color2">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.logo_color3">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.logo_no_background">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.logo_no_background1">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.logo_no_background2">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.logo_no_background3">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.logo_no_background4">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Icon ähnlich wie (Symbol).
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.logo_white">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.logo_white1">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.logo_white2">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.logo_white3">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.mail_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.menu_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.nothing_found_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.package_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.python_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.search_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.security_lock_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.settings_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.SideMenuPanelBackFillColorDark">
+<summary>
+  Sucht eine lokalisierte Zeichenfolge, die 34, 79, 150 ähnelt.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.SideMenuPanelBackFillColorLight">
+<summary>
+  Sucht eine lokalisierte Zeichenfolge, die 30,144, 255 ähnelt.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.software_license_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.source_code_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.star_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.star_filled_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.TitleBarPanelBackFillColorDark">
+<summary>
+  Sucht eine lokalisierte Zeichenfolge, die 4, 49, 120 ähnelt.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.TitleBarPanelBackFillColorLight">
+<summary>
+  Sucht eine lokalisierte Zeichenfolge, die 0, 0, 205 ähnelt.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.unavailable_cloud_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.user_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.user_settings_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.vbs_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.wi_fi_off_96px">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.WindowBackgroundColorDark">
+<summary>
+  Sucht eine lokalisierte Zeichenfolge, die 20, 33, 61 ähnelt.
+</summary>
+</member>
+<member name="P:ZAppGet.My.Resources.Resources.WindowBackgroundColorLight">
+<summary>
+  Sucht eine lokalisierte Zeichenfolge, die 0, 191, 255 ähnelt.
+</summary>
+</member>
+</members>
+</doc>
